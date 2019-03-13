@@ -29,6 +29,7 @@ In command line:
 Best to start with these versions of RASA NLU and RASA CORE
 
 RASA NLU 0.13.8
+
 RASA CORE  0.12.3
 
 Any versions greater than this will be supported.
