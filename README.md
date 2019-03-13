@@ -18,12 +18,12 @@ In command line:
 
 ## For RASA NLU
 
-pip install rasa_nlu
-pip install rasa_nlu[tensorflow]
+```pip install rasa_nlu```
+```pip install rasa_nlu[tensorflow]```
 
 ## For RASA Core
 
-pip install rasa_core
+```pip install rasa_core```
 
 Best to start with these versions of RASA NLU and RASA CORE
 
@@ -33,23 +33,23 @@ RASA CORE  0.12.3
 Any versions greater than this will be supported.
 
 ## To check the version :
-python -c "import rasa_nlu; print(rasa_nlu.__version__);"
-python -c "import rasa_core; print(rasa_core.__version__);"
+```python -c "import rasa_nlu; print(rasa_nlu.__version__);"```
+```python -c "import rasa_core; print(rasa_core.__version__);"```
 ## For specific version installation use the command
 ### RASA NLU:
-pip install “rasa_nlu==0.13.8”
+```pip install “rasa_nlu==0.13.8”```
 ### RASA CORE
-pip install “rasa_core==0.12.3”
+```pip install “rasa_core==0.12.3”```
 ## To Get started with
 https://github.com/RasaHQ/starter-pack-rasa-stack
 Starter pack provides project file directory, including files to be added.
 Creating input examples for RASA NLU, with an app, to use that, first install
 
-npm i -g rasa-nlu-trainer
+```npm i -g rasa-nlu-trainer```
 
 Then launch it by moving to the data file directory and type,
 
-rasa-nlu-trainer
+```rasa-nlu-trainer```
 
 After giving input examples via rasa-nlu-trainer check for the data.json file, if we want to add lookup table, synonyms examples add it and save it. Whatever we have given in the nlu trainer, it will get stored under the common examples of rasa_nlu_examples key.
 
@@ -73,11 +73,11 @@ To Run your chatbot
 * Move to your project directory and type as
 python -m rasa_core_sdk.endpoint --actions actions
 * Then run the rasa core 
-python -m rasa_core.run --enable_api -d \ models/dialogue_embedded_full_last_28_04_00pm -u \ models/nlu/default/dream_chatbot_nlu_28_02_2019_3pm --credentials credentials.yml \ --endpoint endpoints.yml
+```python -m rasa_core.run --enable_api -d \ models/dialogue_embedded_full_last_28_04_00pm -u \ models/nlu/default/dream_chatbot_nlu_28_02_2019_3pm --credentials credentials.yml \ --endpoint endpoints.yml```
 
 Give your model name of rasa core and your model name of rasa nlu, which you would have already trained in the above comand line and run the above command in the command prompt, in your project directory.
 To connect with messaging platforms:
-ngrok http 5005
+```ngrok http 5005```
 
 Or to just run your chatbot in the command prompt and check 
 Start the actions file as stated above
