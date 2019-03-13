@@ -1,0 +1,66 @@
+# slot is a placeholder
+slots:
+  location:
+    type: text
+
+
+intents:
+  - greet
+  - goodbye
+  - inform
+  - affirm
+  - affirm_no
+  - telling_location
+  - weather_location
+  - affirm_change_location_confirm
+  - affirm_change_location
+  - extra_query_location
+  - extra_query
+  - out_of_scope
+
+entities:
+  - location
+
+templates:
+  
+  utter_greet:
+    - 'Hello! In which location you what know weather?'
+    - 'Hi,I am  weather reporter'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+    - 'Have a nice talk with you'
+    - 'Thanks for using our service'
+  utter_ask_location:
+    - 'In what Location?'
+    - 'Location please?'
+  utter_confirmation:
+    - 'To confirm the location please type yes'
+  utter_affirm:
+    - 'wait a moment...'
+    - 'just a minute'
+    - 'Fetching weather report'
+  utter_change_location:
+    - 'No problem please tell the new location'
+  utter_any_query:
+    - 'Any more query regarding weather about other location'
+    - 'You want to know any other weather location'
+  utter_default:
+    -  "Sorry, Could you please rephrase?"
+    -  "I didn't understand, could you rephrase that?"
+    -  "I'm sorry, but I didn't understand you. Could you please rephrase what you just said?"
+    -  "I'm afraid I didn't get what you just said. Could you rephrase that?"
+    -  "I didn't quite get that, could you rephrase your message?"
+    -  "Could you rephrase your message? I didn't get it, I'm sorry."
+actions:
+  - utter_greet
+  - utter_goodbye
+  - utter_affirm
+  - utter_confirmation
+  - utter_ask_location
+  - action_weather
+  - utter_any_query
+  - utter_change_location
+  - action_default_fallback
+  - utter_default
+  - action_custom_element

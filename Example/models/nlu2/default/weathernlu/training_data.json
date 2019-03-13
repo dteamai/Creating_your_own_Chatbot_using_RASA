@@ -1,0 +1,684 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 23,
+            "end": 29,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "what is the weather in London at the moment?"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "NewYork",
+            "entity": "location"
+          }
+        ],
+        "text": "what's the weather in NewYork  today?"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "london",
+            "entity": "location"
+          }
+        ],
+        "text": "weather in london today"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 31,
+            "end": 37,
+            "value": "french",
+            "entity": "location"
+          }
+        ],
+        "text": "show me  what's the weather in french "
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 31,
+            "value": "tamilnadu",
+            "entity": "location"
+          }
+        ],
+        "text": "what's the weather in tamilnadu "
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "tamilnadu",
+            "entity": ""
+          }
+        ],
+        "text": "tamilnadu weather report?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "good bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "affirm_no",
+        "text": "No"
+      },
+      {
+        "intent": "affirm_no",
+        "text": "no"
+      },
+      {
+        "intent": "affirm",
+        "text": "yes"
+      },
+      {
+        "intent": "affirm",
+        "text": "ok"
+      },
+      {
+        "intent": "affirm_change_location",
+        "text": "no i want change to other location"
+      },
+      {
+        "intent": "affirm_change_location_confirm",
+        "entities": [
+          {
+            "start": 23,
+            "end": 30,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "no i want to change to chennai"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "goodbye",
+        "text": "i chat with you later"
+      },
+      {
+        "intent": "greet",
+        "text": "hai"
+      },
+      {
+        "intent": "goodbye",
+        "text": "No thanks"
+      },
+      {
+        "intent": "inform",
+        "text": "what the weather ?"
+      },
+      {
+        "intent": "inform",
+        "text": "weather report ?"
+      },
+      {
+        "intent": "inform",
+        "text": "what's the weather today?"
+      },
+      {
+        "intent": "inform",
+        "text": "weather today"
+      },
+      {
+        "intent": "inform",
+        "text": "weather"
+      },
+      {
+        "intent": "inform",
+        "text": "can you tell weather report"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 31,
+            "end": 40,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "can you tell weather report in India"
+      },
+      {
+        "intent": "inform",
+        "text": "what is the weather"
+      },
+      {
+        "intent": "telling_location",
+        "entities": [
+          {
+            "start": 12,
+            "end": 18,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "Location is London"
+      },
+      {
+        "intent": "telling_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "London"
+      },
+      {
+        "intent": "telling_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "TamilNadu",
+            "entity": "location"
+          }
+        ],
+        "text": "TamilNadu"
+      },
+      {
+        "intent": "telling_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "NewYork",
+            "entity": "location"
+          }
+        ],
+        "text": "NewYork is Location"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "I want to know about London weather"
+      },
+      {
+        "intent": "telling_location",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "i want to know about London weather"
+      },
+      {
+        "intent": "affirm_change_location_confirm",
+        "entities": [
+          {
+            "start": 10,
+            "end": 16,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "no i want London weather report"
+      },
+      {
+        "intent": "affirm_change_location",
+        "text": "no i want to change"
+      },
+      {
+        "intent": "affirm_change_location",
+        "text": "i want change to new location"
+      },
+      {
+        "intent": "extra_query",
+        "text": "yes i want to know new location weather"
+      },
+      {
+        "intent": "extra_query",
+        "text": "yes , A new location"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "London",
+            "entity": "location"
+          }
+        ],
+        "text": "yes, i want to know London weather"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 12,
+            "end": 19,
+            "value": "england",
+            "entity": "location"
+          }
+        ],
+        "text": "yes, i want england weather report"
+      },
+      {
+        "intent": "goodbye",
+        "text": "No, Thanks Goodbye"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 11,
+            "end": 16,
+            "value": "china",
+            "entity": "location"
+          }
+        ],
+        "text": "weather in china"
+      },
+      {
+        "intent": "inform",
+        "text": "weather?"
+      },
+      {
+        "intent": "inform",
+        "text": "weather ?"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye see you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "talk to you later"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 29,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "what's the weather at chennai"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 27,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "what the weather in chennai"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "Location"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "gasgasgsfdghafhfgs"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "what the weather in kerala"
+      },
+      {
+        "intent": "inform",
+        "text": "can please tell me the weather report"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 35,
+            "end": 40,
+            "value": "India",
+            "entity": "location"
+          }
+        ],
+        "text": "can you please tell the weather in India"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "Chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "Chennai weather report"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what's time now"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what is chatbot"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "what is chennai"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "show me the time now"
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can you tell me "
+      },
+      {
+        "intent": "out_of_scope",
+        "text": "can speak in tamil"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Tamilnadu",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know the weather in Tamilnadu"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 34,
+            "end": 43,
+            "value": "Tamilnadu",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know the weather at Tamilnadu"
+      },
+      {
+        "intent": "extra_query",
+        "text": "yes i want to know the weather"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 19,
+            "end": 29,
+            "value": "tamilnadu",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know tamilnadu weather"
+      },
+      {
+        "intent": "extra_query_location",
+        "text": "yes i want London"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 20,
+            "end": 26,
+            "value": "Kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "yeah i want to know Kerala"
+      },
+      {
+        "intent": "affirm",
+        "text": "yeah"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 18,
+            "end": 24,
+            "value": "sydney",
+            "entity": "location"
+          }
+        ],
+        "text": "get me weather in sydney"
+      },
+      {
+        "intent": "inform",
+        "text": "get me weather"
+      },
+      {
+        "intent": "inform",
+        "text": "get me a weather report"
+      },
+      {
+        "intent": "inform",
+        "text": "please give me a weather report"
+      },
+      {
+        "intent": "inform",
+        "text": "please show me a weather report"
+      },
+      {
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "please give me a weather report in kerala"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 28,
+            "end": 35,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "please tell me a weather on chennai"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 35,
+            "end": 41,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "please give me a weather report at kerala"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 22,
+            "end": 30,
+            "value": "chennai",
+            "entity": "location"
+          }
+        ],
+        "text": "what's the weather in chennai city"
+      },
+      {
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "tamilnadu",
+            "entity": "location"
+          }
+        ],
+        "text": "tamilnadu weather report"
+      },
+      {
+        "intent": "weather_location",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "kerala weather?"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know the weather at kerala"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know the weather on kerala"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 34,
+            "end": 40,
+            "value": "kerala",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know the weather in kerala"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 19,
+            "end": 25,
+            "value": "london",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want to know london weather"
+      },
+      {
+        "intent": "extra_query_location",
+        "entities": [
+          {
+            "start": 11,
+            "end": 17,
+            "value": "delhi",
+            "entity": "location"
+          }
+        ],
+        "text": "yes i want delhi weather report"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [
+      {
+        "name": "location",
+        "elements": "./data/lookup_tables/worldcities_small.txt"
+      }
+    ],
+    "entity_synonyms": []
+  }
+}

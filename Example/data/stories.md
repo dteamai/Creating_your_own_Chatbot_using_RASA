@@ -1,0 +1,261 @@
+## story_01
+ * greet
+   - action_custom_element
+ * weather_location[location=London]
+   - slot{"location":"London"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * affirm_no
+    - utter_goodbye
+
+## story_02
+ * greet
+   - action_custom_element
+ * weather_location[location=London]
+   - slot{"location":"London"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * goodbye
+    - utter_goodbye
+
+## story_03
+  * greet
+    - action_custom_element
+  * inform
+    - utter_ask_location
+  * telling_location[location=London]
+    - slot{"location":"tamilnadu"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * goodbye
+    - utter_goodbye
+
+## story_04
+  * greet
+    - action_custom_element
+  * inform
+    - utter_ask_location
+  * telling_location[location=London]
+    - slot{"location":"London"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * affirm_no
+    - utter_goodbye
+
+## story_05
+  * greet
+    - action_custom_element
+  * inform
+    - utter_ask_location
+  * telling_location[location=tamilnadu]
+    - slot{"location":"tamilnadu"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * affirm
+    - utter_ask_location
+  * telling_location[location=NewYork]
+    - slot{"location":"NewYork"}
+    - action_weather
+    - utter_any_query
+  * goodbye
+    - utter_goodbye
+
+## story_06
+  * greet
+    - action_custom_element
+  * weather_location[location=London]
+    - slot{"location":"London"}
+    - utter_confirmation
+  * affirm_no
+    - utter_change_location
+  * telling_location[location=NewYork]
+   - slot{"location":"NewYork"}
+   - action_weather
+   - utter_any_query
+  * goodbye
+   - utter_goodbye
+
+## story_07
+  * greet
+    - action_custom_element
+  * weather_location[location=London]
+    - slot{"location":"London"}
+    - utter_confirmation
+  * affirm_change_location_confirm[location=NewYork]
+   - slot{"location":"NewYork"}
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+  * goodbye
+   - utter_goodbye
+
+
+## story_08
+ * greet
+   - action_custom_element
+ * weather_location[location=London]
+    - slot{"location":"London"}
+    - utter_confirmation
+ * affirm_change_location
+   - utter_change_location
+ * telling_location[location=tamilnadu]
+   - slot{"location":"tamilnadu"}
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * affirm_no
+  - utter_goodbye
+
+## story_09
+ * greet
+   - action_custom_element
+ * weather_location[location=tamilnadu]
+   - slot{"location":"tamilnadu"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * extra_query
+   - utter_ask_location
+ * telling_location[location=Chennai]
+   - slot{"location":"Chennai"}
+   - action_weather
+ * goodbye
+    - utter_goodbye
+
+## story_10
+ * greet
+   - action_custom_element
+ * weather_location[location=NewYork]
+   - slot{"location":"NewYork"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * extra_query_location[location=London]
+   - slot{"location":"London"}
+   - action_weather
+ * goodbye
+    - utter_goodbye
+
+## story_11
+ * greet
+   - action_custom_element
+ * weather_location[location=french]
+   - slot{"location":"french"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * extra_query_location[location=NewYork]
+   - slot{"location":"NewYork"}
+   - action_weather
+ * goodbye
+    - utter_goodbye
+  
+## story_12
+  * greet
+    - action_custom_element
+  * inform
+    - utter_ask_location
+  * telling_location[location=tamilnadu]
+    - slot{"location":"tamilnadu"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * extra_query_location[location=french]
+    - slot{"location":"french"}
+    - action_weather
+    - utter_any_query  
+  * affirm_no
+    - utter_goodbye
+
+## story_13
+* greet
+  - action_custom_element
+* goodbye
+  - action_custom_element
+
+## story_14
+  * greet
+    - action_custom_element
+  * inform
+    - utter_ask_location
+  * telling_location[location=tamilnadu]
+    - slot{"location":"tamilnadu"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * extra_query_location[location=french]
+    - slot{"location":"french"}
+    - action_weather
+    - utter_any_query  
+  * affirm_no
+    - utter_goodbye
+  * goodbye
+    - utter_goodbye
+
+## story_15
+* goodbye
+  - utter_goodbye
+
+## story_16
+
+* inform
+    - utter_ask_location
+  * telling_location[location=chennai]
+    - slot{"location":"tamilnadu"}
+    - utter_confirmation
+  * affirm
+    - utter_affirm
+    - action_weather
+    - utter_any_query
+  * extra_query_location[location=french]
+    - slot{"location":"french"}
+    - action_weather
+    - utter_any_query  
+  * affirm_no
+    - utter_goodbye
+  * goodbye
+    - utter_goodbye
+
+## story_17
+* weather_location[location=London]
+   - slot{"location":"London"}
+   - utter_confirmation
+ * affirm
+   - utter_affirm
+   - action_weather
+   - utter_any_query
+ * goodbye
+    - utter_goodbye
+
+## fallback
+ * out_of_scope
+   - action_default_fallback
+## fallback_1
+   - action_default_fallback
+ 
+  

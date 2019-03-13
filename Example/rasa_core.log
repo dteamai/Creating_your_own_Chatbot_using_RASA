@@ -1,0 +1,667 @@
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #3 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Couldn't connect to the server at 'http://localhost:5055/webhook/'. Is the server running? Error: HTTPConnectionPool(host='localhost', port=5055): Max retries exceeded with url: /webhook/ (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002BDBB75A5C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it',))
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5004
+Received retry #1 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5004
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5004
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 404. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 404 Client Error: NOT FOUND for url: http://localhost:5055/webhook/
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from './models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from ./models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #1 request from slack due to http_timeout
+Failed to run custom action 'action_weather'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_weather'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+C:\Users\vigne\Anaconda3\lib\site-packages\rasa_nlu\extractors\entity_synonyms.py:85: UserWarning: Failed to load synonyms file from 'models/nlu/default/weathernlu\entity_synonyms.json'
+  "".format(entity_synonyms_file))
+
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Received retry #1 request from slack due to http_timeout
+Received retry #1 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #2 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Received retry #3 request from slack due to http_timeout
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5002
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Exception on /webhooks/rest/webhook [POST]
+Traceback (most recent call last):
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask_cors\extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\_compat.py", line 35, in reraise
+    raise value
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\flask\app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 358, in receive
+    sender_id = self._extract_sender(request)
+  File "C:\Users\vigne\Anaconda3\lib\site-packages\rasa_core\channels\channel.py", line 326, in _extract_sender
+    return req.json.get("sender", None)
+AttributeError: 'NoneType' object has no attribute 'get'
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5005
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5008
+Failed to run custom action 'action_custom_element'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_custom_element'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_custom_element'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_custom_element'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Failed to run custom action 'action_custom_element'. Action server responded with a non 200 status code of 500. Make sure your action server properly runs actions and returns a 200 once the action is executed. Error: 500 Server Error: INTERNAL SERVER ERROR for url: http://localhost:5055/webhook
+Encountered an exception while running action 'action_custom_element'. Bot will continue, but the actions events are lost. Make sure to fix the exception in your custom code.
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5008
+Rasa process starting
+Restoring parameters from models/nlu/default/weathernlu\intent_classifier_tensorflow_embedding.ckpt
+C:\Users\vigne\Anaconda3\lib\site-packages\pykwalify\core.py:99: UnsafeLoaderWarning: 
+The default 'Loader' for 'load(stream)' without further arguments can be unsafe.
+Use 'load(stream, Loader=ruamel.yaml.Loader)' explicitly if that is OK.
+Alternatively include the following in your code:
+
+  import warnings
+  warnings.simplefilter('ignore', ruamel.yaml.error.UnsafeLoaderWarning)
+
+In most other cases you should consider using 'safe_load(stream)'
+  data = yaml.load(stream)
+
+Rasa Core server is up and running on http://localhost:5008

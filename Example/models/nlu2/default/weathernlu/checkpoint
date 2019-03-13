@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\Users\\Magesh\\Documents\\GitHub\\weather_bot\\./models/nlu2\\default\\weathernlu\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "C:\\Users\\Magesh\\Documents\\GitHub\\weather_bot\\./models/nlu2\\default\\weathernlu\\intent_classifier_tensorflow_embedding.ckpt"

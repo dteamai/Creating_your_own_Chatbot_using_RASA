@@ -1,0 +1,80 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_goodbye
+- utter_affirm
+- utter_confirmation
+- utter_ask_location
+- action_weather
+- utter_any_query
+- utter_change_location
+- action_default_fallback
+- utter_default
+- action_custom_element
+config:
+  store_entities_as_slots: true
+entities:
+- location
+forms: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- inform:
+    use_entities: true
+- affirm:
+    use_entities: true
+- affirm_no:
+    use_entities: true
+- telling_location:
+    use_entities: true
+- weather_location:
+    use_entities: true
+- affirm_change_location_confirm:
+    use_entities: true
+- affirm_change_location:
+    use_entities: true
+- extra_query_location:
+    use_entities: true
+- extra_query:
+    use_entities: true
+- out_of_scope:
+    use_entities: true
+slots:
+  location:
+    auto_fill: true
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_affirm:
+  - text: wait a moment...
+  - text: just a minute
+  - text: Fetching weather report
+  utter_any_query:
+  - text: Any more query regarding weather about other location
+  - text: You want to know any other weather location
+  utter_ask_location:
+  - text: In what Location?
+  - text: Location please?
+  utter_change_location:
+  - text: No problem please tell the new location
+  utter_confirmation:
+  - text: To confirm the location please type yes
+  utter_default:
+  - text: Sorry, Could you please rephrase?
+  - text: I didn't understand, could you rephrase that?
+  - text: I'm sorry, but I didn't understand you. Could you please rephrase what you
+      just said?
+  - text: I'm afraid I didn't get what you just said. Could you rephrase that?
+  - text: I didn't quite get that, could you rephrase your message?
+  - text: Could you rephrase your message? I didn't get it, I'm sorry.
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  - text: Have a nice talk with you
+  - text: Thanks for using our service
+  utter_greet:
+  - text: Hello! In which location you what know weather?
+  - text: Hi,I am  weather reporter
