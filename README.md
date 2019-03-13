@@ -19,6 +19,7 @@ In command line:
 ## For RASA NLU
 
 ```pip install rasa_nlu```
+
 ```pip install rasa_nlu[tensorflow]```
 
 ## For RASA Core
@@ -34,6 +35,7 @@ Any versions greater than this will be supported.
 
 ## To check the version :
 ```python -c "import rasa_nlu; print(rasa_nlu.__version__);"```
+
 ```python -c "import rasa_core; print(rasa_core.__version__);"```
 ## For specific version installation use the command
 ### RASA NLU:
@@ -71,8 +73,10 @@ https://arxiv.org/pdf/1811.11707.pdf
 To Run your chatbot 
 * Start the actions file 
 * Move to your project directory and type as
-python -m rasa_core_sdk.endpoint --actions actions
+
+```python -m rasa_core_sdk.endpoint --actions actions```
 * Then run the rasa core 
+
 ```python -m rasa_core.run --enable_api -d \ models/dialogue_embedded_full_last_28_04_00pm -u \ models/nlu/default/dream_chatbot_nlu_28_02_2019_3pm --credentials credentials.yml \ --endpoint endpoints.yml```
 
 Give your model name of rasa core and your model name of rasa nlu, which you would have already trained in the above comand line and run the above command in the command prompt, in your project directory.
